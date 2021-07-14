@@ -1,0 +1,183 @@
+body {
+  background:linear-gradient(to bottom, black,#555555) no-repeat center center fixed;
+
+  background-size:cover;
+  margin-top:80px;
+}
+
+a.menu {
+  background-color:black;
+  font-size:20px;
+  color:white;
+  text-decoration: none;
+
+  padding:15px 20px;
+
+
+}
+a.menu:link{
+  color:white;
+  transition: background-color 0.2s;
+}
+a.menu:hover {
+  background-color:gray;
+  transition: background-color 0.2s;
+}
+#gshsmark{
+  display:inline;
+  float:left;
+  margin-right:20px;
+  width:55px;
+}
+#gshst {
+  position:fixed;
+  top:0px;
+  left:0px;
+  width:100%;
+  height:57px;
+  padding-top:5px;
+  background-color:#111111;
+  border-bottom:1px solid white;
+}
+#menubtn{
+  display:table-cell;
+  height:55px;
+  vertical-align: middle;
+}
+
+h1,h2,p {
+  color:white;
+}
+
+div.linklist{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: left;
+  align-self: center;
+}
+
+
+div.link{
+  background-color:white;
+  border-radius:10px;
+  display: inline-block;
+  padding:5px;
+  height:350px;
+  margin:10px;
+
+}
+div.link:link{
+  transition: background-color 0.2s, box-shadow 0.5s;
+}
+div.link:hover{
+  background-color:#EEEEEE;
+  box-shadow:0 0 20px white;
+transition: background-color 0.2s, box-shadow 0.5s;
+}
+
+.imgbox{
+  width:300px;
+  height:300px;
+  border-radius:10px;
+  overflow:hidden;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+img.url{
+  object-fit: cover;
+  object-position:center;
+  width:300px;
+}
+a.url {
+  color:black;
+  text-align:center;
+  text-decoration:none;
+  border-radius:3px;
+}
+p.url{
+  color:black;
+  font-family:Impact;
+  font-size:1.5em;
+  margin:10px;
+}
+
+table{
+  border-collapse:collapse;
+}
+
+
+img.gallery {
+  width:80%;
+  height:auto;
+
+
+}
+
+.intro_name{
+  color: #ffffff;
+  font-family: courier;
+  font-size: 40px;
+  text-align: center;
+}
+.intro_desc{
+  color: #ffffff;
+  font-family: courier;
+  font-size: 15px;
+  text-align: center;
+}
+h2{
+  color: #ffffff;
+  font-family: courier;
+  font-size: 25px;
+  text-align: center;
+}
+td.intro_master_td{
+  width: 500px;
+  border: 1px solid #FFFFFF;
+}
+td.intro_member_td{
+  width: 300px;
+  border: 1px solid #FFFFFF;
+}
+td.intro_member_desc_td{
+  border: 1px solid #FFFFFF;
+}
+
+a.course {
+  color:white;
+  text-decoration: none;
+  font-size:20px;
+}
+a.course:link{
+  transition:color 0.2s;
+}
+a.course:hover {
+  color:gray;
+  transition: color 0.2s;
+}
+  td.intro_t_main_ip{
+    width: 300px;
+    border: 1px solid #FFFFFF;
+    text-align: center;
+  }
+  td.intro_t_main_mi{
+    border: 1px solid #FFFFFF;
+    text-align: center;
+  }
+  p.intro_t_miner{
+    text-align: center;
+    font-family: courier;
+    font-size: 25px;
+  }
+  p.intro_t_info{
+    text-align: center;
+    font-family: courier;
+    font-size: 15px;
+  }
+  .img_t{
+    border-radius:10px;
+    width:300px;
+    height:150px;
+  justify-content:center;
+  }
